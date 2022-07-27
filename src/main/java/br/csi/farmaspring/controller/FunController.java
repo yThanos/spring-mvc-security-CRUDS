@@ -34,6 +34,9 @@ public class FunController {
     public String cadastrar(@ModelAttribute("func") Funcionario func, Model model){
         int perm = func.getPermissao().getId();
         String resultado = new FuncService().cadFun(func, perm);
+
+        System.out.println(resultado);
+
         if (resultado == "existe"){
             resultado = "cadFun";
             model.addAttribute("erro", "CPF já cadastrado");
