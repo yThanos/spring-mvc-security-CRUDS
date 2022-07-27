@@ -44,9 +44,9 @@
         <form:label path="senha">Senha: </form:label>
         <form:input path="senha" type="password" />
 
-        <form:select path="permissao">
+        <form:select path="permissao.id">
             <c:forEach var="p" items="${perms}">
-                <form:option value="${p}">${p.nome}</form:option>
+                <form:option value="${p.id}">${p.nome}</form:option>
             </c:forEach>
         </form:select>
         <input type="submit" value="Cadastrar">

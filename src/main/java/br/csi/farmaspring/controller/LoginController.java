@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.view.RedirectView;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+
 
 @Controller
 public class LoginController {
@@ -21,11 +24,14 @@ public class LoginController {
     }
 
     @PostMapping("login")
-    public RedirectView login(@RequestParam String cpf, @RequestParam String senha){
+    public RedirectView login(@RequestParam String cpf, @RequestParam String senha, HttpServletRequest req){
+
         RedirectView redirect = new RedirectView("/Farmacia/login");
         Funcionario func = new LoginService().autentica(cpf, senha);
         if (func != null){
 
+            HttpSession sessao = req.getSession();
+            sessao.setAttribute("usuario_logado", func);
 
             if (func.getPermissao().getId() == 1){
                 redirect = new RedirectView("/Farmacia/admin/inicio");

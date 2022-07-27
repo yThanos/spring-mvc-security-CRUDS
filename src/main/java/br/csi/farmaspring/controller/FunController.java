@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.view.RedirectView;
 
 @Controller
 @RequestMapping("/func")
@@ -31,21 +32,22 @@ public class FunController {
     }
 
     @PostMapping("cadastrar")
-    public String cadastrar(@ModelAttribute("func") Funcionario func, Model model){
+    public RedirectView cadastrar(@ModelAttribute("func") Funcionario func, Model model){
+
         int perm = func.getPermissao().getId();
         String resultado = new FuncService().cadFun(func, perm);
 
         System.out.println(resultado);
+        RedirectView redirect = new RedirectView("/Farmacia/func/inicio");
 
         if (resultado == "existe"){
-            resultado = "cadFun";
             model.addAttribute("erro", "CPF já cadastrado");
 
         } else if(resultado == "erro"){
-            resultado = "cadFun";
             model.addAttribute("erro", "Preencha todos os campos");
         }
 
-        return resultado;
+        return redirect;
     }
+
 }
