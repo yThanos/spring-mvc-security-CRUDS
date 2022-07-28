@@ -33,26 +33,23 @@
     </div>
 </nav>
 <div class="container">
-    <h1>Funcionarios</h1>
-    <h3><a href="/Farmacia/func/cadastrar">Cadastrar novos</a></h3>
+    <h1>Produtos</h1>
+    <h3><a href="/Farmacia/prod/cadastrar">Cadastrar novos</a></h3>
     <table class="table table-striped">
         <thead>
         <tr>
             <th>Nome: </th>
-            <th>CPF: </th>
-            <th>Permissão: </th>
-            <th>Opções</th>
+            <th>Valor: </th>
+            <th>Opções: </th>
         </tr>
         </thead>
-
         <tbody>
-        <c:forEach var="f" items="${funcionarios}">
+        <c:forEach var="p" items="${produtos}">
             <tr>
-                <th>${f.nomfun}</th>
-                <th>${f.cpffun}</th>
-                <th>${f.permissao.nome}</th>
-                <th><a href="/Farmacia/func/editar?cpf=${f.cpffun}">Editar </a><p> </p>
-                    <a href="/Farmacia/func/excluir?cpf=${f.cpffun}"> Excluir</a></th>
+                <th>${p.nompro}</th>
+                <th>${p.valor}</th>
+                <th><a href="/Farmacia/prod/editar?codpro=${p.codpro}">Editar </a><p> </p>
+                    <a href="/Farmacia/prod/excluir?codpro=${p.codpro}"> Excluir</a></th>
             </tr>
         </c:forEach>
         </tbody>

@@ -23,10 +23,10 @@ public class AdminController {
     }
 
     @GetMapping("/produtos")
-    public String produtos(){
+    public RedirectView produtos(){
+        RedirectView redirect = new RedirectView("/Farmacia/prod/inicio");
 
-
-        return "produtos";
+        return redirect;
     }
 
     @GetMapping("/clientes")

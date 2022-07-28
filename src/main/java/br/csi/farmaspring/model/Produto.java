@@ -3,7 +3,7 @@ package br.csi.farmaspring.model;
 public class Produto {
     private int codpro;
     private String nompro;
-    private int valor;
+    private String valor;
 
     public int getCodpro() {
         return codpro;
@@ -21,11 +21,11 @@ public class Produto {
         this.nompro = nompro;
     }
 
-    public int getValor() {
+    public String getValor() {
         return valor;
     }
 
-    public void setValor(int valor) {
+    public void setValor(String valor) {
         this.valor = valor;
     }
 }

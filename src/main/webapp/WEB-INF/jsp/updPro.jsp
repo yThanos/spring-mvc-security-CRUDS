@@ -1,11 +1,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ page isELIgnored="false" %>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <title>Funcionarios</title>
+    <title>Editar Funcionario</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg bg-light">
@@ -32,31 +33,16 @@
         </div>
     </div>
 </nav>
-<div class="container">
-    <h1>Funcionarios</h1>
-    <h3><a href="/Farmacia/func/cadastrar">Cadastrar novos</a></h3>
-    <table class="table table-striped">
-        <thead>
-        <tr>
-            <th>Nome: </th>
-            <th>CPF: </th>
-            <th>Permissão: </th>
-            <th>Opções</th>
-        </tr>
-        </thead>
+<form:form method="post" action="/Farmacia/prod/editar" modelAttribute="prod">
+    <form:input path="codpro" type="hidden" value="${produto.codpro}"/>
 
-        <tbody>
-        <c:forEach var="f" items="${funcionarios}">
-            <tr>
-                <th>${f.nomfun}</th>
-                <th>${f.cpffun}</th>
-                <th>${f.permissao.nome}</th>
-                <th><a href="/Farmacia/func/editar?cpf=${f.cpffun}">Editar </a><p> </p>
-                    <a href="/Farmacia/func/excluir?cpf=${f.cpffun}"> Excluir</a></th>
-            </tr>
-        </c:forEach>
-        </tbody>
-    </table>
-</div>
+    <form:label path="nompro">Nome: </form:label>
+    <form:input path="nompro" type="text" value="${produto.nompro}" />
+
+    <form:label path="valor">Valor: </form:label>
+    <form:input path="valor" type="text" value="${produto.valor}" />
+
+    <input type="submit" value="Editar">
+</form:form>
 </body>
 </html>
