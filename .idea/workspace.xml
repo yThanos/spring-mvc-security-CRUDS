@@ -5,17 +5,84 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eba0fbd7-7c10-4aaf-be6c-3f9d40476117" name="Changes" comment="Commit">
+      <change afterPath="$PROJECT_DIR$/../Cafeteria" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../farmacia" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/.idea/webContexts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/app_bic.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/src/main/java/br/csi/controller/DashboardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/src/main/java/br/csi/controller/EditController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/src/main/java/br/csi/controller/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/src/main/java/br/csi/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/src/main/java/br/csi/controller/UsuarioController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/src/main/java/br/csi/dao/ConectaDBPostgres.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/src/main/java/br/csi/dao/UsuarioDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/src/main/java/br/csi/model/Permissao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/src/main/java/br/csi/model/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/src/main/java/br/csi/service/UsuarioService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/src/main/webapp/Index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/src/main/webapp/WEB-INF/Home/Cliente.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/src/main/webapp/WEB-INF/Home/Editar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/src/main/webapp/WEB-INF/Home/Produto.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/src/main/webapp/WEB-INF/Home/Usuario.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/src/main/webapp/WEB-INF/Home/dashboard.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/src/main/webapp/WEB-INF/cadastro.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/src/main/webapp/WEB-INF/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/Index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/WEB-INF/Home/Cliente.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/WEB-INF/Home/Editar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/WEB-INF/Home/Produto.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/WEB-INF/Home/Usuario.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/WEB-INF/Home/dashboard.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/WEB-INF/cadastro.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/WEB-INF/classes/br/csi/controller/DashboardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/WEB-INF/classes/br/csi/controller/EditController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/WEB-INF/classes/br/csi/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/WEB-INF/classes/br/csi/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/WEB-INF/classes/br/csi/controller/UsuarioController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/WEB-INF/classes/br/csi/dao/ConectaDBPostgres.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/WEB-INF/classes/br/csi/dao/UsuarioDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/WEB-INF/classes/br/csi/model/Permissao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/WEB-INF/classes/br/csi/model/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/WEB-INF/classes/br/csi/service/Permissao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/WEB-INF/classes/br/csi/service/UsuarioService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/WEB-INF/lib/checker-qual-3.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/WEB-INF/lib/jsp-api-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/WEB-INF/lib/jstl-api-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/WEB-INF/lib/postgresql-42.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/WEB-INF/lib/servlet-api-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/WEB-INF/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/app_bic/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/classes/br/csi/controller/DashboardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/classes/br/csi/controller/EditController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/classes/br/csi/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/classes/br/csi/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/classes/br/csi/controller/UsuarioController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/classes/br/csi/dao/ConectaDBPostgres.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/classes/br/csi/dao/UsuarioDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/classes/br/csi/model/Permissao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/classes/br/csi/model/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app_bic/target/classes/br/csi/service/UsuarioService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/controller/FunController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/controller/FunController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/dao/FunDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/dao/FunDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/dao/ProDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/dao/ProDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/model/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/model/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/funcInicio.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/funcInicio.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/dao/CliDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/dao/CliDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/dao/ConectaDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/dao/ConectaDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/prodInicio.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/prodInicio.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updFun.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updFun.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updPro.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updPro.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/controller/FunController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/controller/FunController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/controller/LoginController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,22 +112,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "spring.configuration.checksum": "f35a3f1621605969be0b47b3f021e439"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f35a3f1621605969be0b47b3f021e439&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="FarmaSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="FarmaSpring" />
@@ -86,6 +153,7 @@
       <workItem from="1658887099028" duration="103000" />
       <workItem from="1658939182485" duration="5106000" />
       <workItem from="1658955056895" duration="13804000" />
+      <workItem from="1658980119231" duration="3429000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1658884645435</created>

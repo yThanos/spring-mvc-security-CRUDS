@@ -84,10 +84,11 @@ public class CliDao {
         String teste = "certo";
 
         try (Connection connection = new ConectaDB().getConexao()){
-            this.sql = "UPDATE clietne SET nomcli = ?, cpfcli = ? WHERE codcli = ?";
+            this.sql = "UPDATE cliente SET nomcli = ?, cpfcli = ? WHERE codcli = ?";
             preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1, cli.getNomcli());
             preparedStatement.setString(2, cli.getCpfcli());
+            preparedStatement.setInt(3, cli.getCodcli());
             preparedStatement.execute();
 
         }catch (PSQLException e){
@@ -101,11 +102,11 @@ public class CliDao {
         return teste;
     }
 
-    public void delCli(String cpf){
+    public void delCli(int codcli){
         try (Connection connection = new ConectaDB().getConexao()) {
-            this.sql = " DELETE FROM cliente where cpffun = ?";
+            this.sql = " DELETE FROM cliente where codcli = ?";
             this.preparedStatement = connection.prepareStatement(this.sql);
-            this.preparedStatement.setString(1, cpf);
+            this.preparedStatement.setInt(1, codcli);
             this.preparedStatement.executeQuery();
 
         } catch (SQLException e){

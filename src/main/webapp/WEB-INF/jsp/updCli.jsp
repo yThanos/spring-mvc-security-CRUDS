@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <title>Editar Funcionario</title>
+    <title>Editar Cliente</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg bg-light">
@@ -34,14 +34,14 @@
     </div>
 </nav>
 <div class="container">
-<form:form method="post" action="/Farmacia/prod/editar" modelAttribute="prod">
-    <form:input path="codpro" type="hidden" value="${produto.codpro}"/>
+<form:form method="post" action="/Farmacia/cli/editar" modelAttribute="cli">
+    <form:input path="codcli" type="hidden" value="${cliente.codcli}"/>
 
-    <form:label path="nompro">Nome: </form:label>
-    <form:input path="nompro" type="text" value="${produto.nompro}" />
+    <form:label path="nomcli">Nome: </form:label>
+    <form:input path="nomcli" type="text" value="${cliente.nomcli}" />
 
-    <form:label path="valor">Valor: </form:label>
-    <form:input path="valor" type="text" value="${produto.valor}" />
+    <form:label path="cpfcli">Valor: </form:label>
+    <form:input path="cpfcli" type="text" value="${cliente.cpfcli}" />
 
     <input type="submit" value="Editar">
 </form:form>

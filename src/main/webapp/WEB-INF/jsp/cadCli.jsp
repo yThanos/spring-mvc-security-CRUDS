@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <title>Editar Funcionario</title>
+    <title>Cadastro Clientes</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg bg-light">
@@ -34,17 +34,14 @@
     </div>
 </nav>
 <div class="container">
-<form:form method="post" action="/Farmacia/prod/editar" modelAttribute="prod">
-    <form:input path="codpro" type="hidden" value="${produto.codpro}"/>
+    <form:form method="post" action="/Farmacia/cli/cadastrar" modelAttribute="cli">
+        <form:label path="nomcli">Nome: </form:label>
+        <form:input path="nomcli" type="text" />
 
-    <form:label path="nompro">Nome: </form:label>
-    <form:input path="nompro" type="text" value="${produto.nompro}" />
-
-    <form:label path="valor">Valor: </form:label>
-    <form:input path="valor" type="text" value="${produto.valor}" />
-
-    <input type="submit" value="Editar">
-</form:form>
+        <form:label path="cpfcli">CPF: </form:label>
+        <form:input path="cpfcli" type="text" />
+        <input type="submit" value="Cadastrar">
+    </form:form>
 </div>
 </body>
 </html>

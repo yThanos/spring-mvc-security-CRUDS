@@ -33,6 +33,7 @@
         </div>
     </div>
 </nav>
+<div class="container">
 <form:form method="post" action="/Farmacia/func/editar" modelAttribute="funcionario">
     <form:input path="codfun" type="hidden" value="${func.codfun}"/>
 
@@ -52,5 +53,6 @@
     </form:select>
     <input type="submit" value="Editar">
 </form:form>
+</div>
 </body>
 </html>

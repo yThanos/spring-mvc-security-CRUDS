@@ -30,10 +30,10 @@ public class AdminController {
     }
 
     @GetMapping("/clientes")
-    public String clientes(){
+    public RedirectView clientes(){
+        RedirectView redirect = new RedirectView("/Farmacia/cli/inicio");
 
-
-        return "clientes";
+        return redirect;
     }
 
     @GetMapping("/vendas")
