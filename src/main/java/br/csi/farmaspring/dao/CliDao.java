@@ -14,12 +14,12 @@ public class CliDao {
     private PreparedStatement preparedStatement;
     private ResultSet resultSet;
 
-    public Cliente getCli(String cpf) {
+    public Cliente getCli(int codcli) {
         Cliente cli = new Cliente();
         try (Connection connection = new ConectaDB().getConexao()) {
-            this.sql = " SELECT * FROM cliente where cpfcli = ?";
+            this.sql = " SELECT * FROM cliente where codcli = ?";
             this.preparedStatement = connection.prepareStatement(this.sql);
-            this.preparedStatement.setString(1, cpf);
+            this.preparedStatement.setInt(1, codcli);
             this.resultSet = this.preparedStatement.executeQuery();
             while (resultSet.next()){
                 cli.setCodcli(resultSet.getInt("codcli"));

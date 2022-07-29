@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <title>Cadastro Funcionarios</title>
+    <title>Cadastro Vendas</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg bg-light">
@@ -34,22 +34,23 @@
     </div>
 </nav>
 <div class="container">
-    <form:form method="post" action="cadastrar" modelAttribute="func">
-        <form:label path="nomfun">Nome: </form:label>
-        <form:input path="nomfun" type="text" />
-
-        <form:label path="cpffun">CPF: </form:label>
-        <form:input path="cpffun" type="text" />
-
-        <form:label path="senha">Senha: </form:label>
-        <form:input path="senha" type="password" />
-
-        <form:label path="permissao.id">Permissão: </form:label>
-        <form:select path="permissao.id">
-            <c:forEach var="p" items="${perms}">
-                <form:option value="${p.id}">${p.nome}</form:option>
+    <form:form method="post" action="/Farmacia/vend/cadastrar" modelAttribute="vend">
+        <form:label path="cliven.codcli">Cliente: </form:label>
+        <form:select path="cliven.codcli">
+            <c:forEach var="c" items="${clis}">
+                <form:option value="${c.codcli}">${c.nomcli}</form:option>
             </c:forEach>
         </form:select>
+
+        <form:label path="proven.codpro">Produto: </form:label>
+        <form:select path="proven.codpro">
+            <c:forEach var="p" items="${prods}">
+                <form:option value="${p.codpro}">${p.nompro}</form:option>
+            </c:forEach>
+        </form:select>
+
+        <form:label path="qtdven">qtd: </form:label>
+        <form:input path="qtdven" type="text" />
         <input type="submit" value="Cadastrar">
     </form:form>
 </div>

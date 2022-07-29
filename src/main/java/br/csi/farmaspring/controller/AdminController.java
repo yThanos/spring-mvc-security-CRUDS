@@ -5,6 +5,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.view.RedirectView;
 
+import javax.servlet.http.HttpServletRequest;
+
 @Controller
 @RequestMapping("/admin")
 public class AdminController {
@@ -37,15 +39,16 @@ public class AdminController {
     }
 
     @GetMapping("/vendas")
-    public String vendas(){
+    public RedirectView vendas(){
+        RedirectView redirect = new RedirectView("/Farmacia/vend/inicio");
 
-
-        return "vendas";
+        return redirect;
     }
 
     @GetMapping("/sair")
-    public RedirectView sair(){
+    public RedirectView sair(HttpServletRequest req){
         RedirectView redirect = new RedirectView("/Farmacia/login");
+        req.getSession().invalidate();
 
         return redirect;
     }

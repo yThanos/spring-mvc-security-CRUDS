@@ -48,7 +48,7 @@
       <tr>
         <th>${c.nomcli}</th>
         <th>${c.cpfcli}</th>
-        <th><a href="/Farmacia/cli/editar?cpfcli=${c.cpfcli}">Editar </a><p> </p>
+        <th><a href="/Farmacia/cli/editar?codcli=${c.codcli}">Editar </a><p> </p>
           <a href="/Farmacia/cli/excluir?codcli=${c.codcli}"> Excluir</a></th>
       </tr>
     </c:forEach>

@@ -1,12 +1,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ page isELIgnored="false" %>
 <html lang="pt-br">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <title>Cadastro Funcionarios</title>
+    <title>Vendas</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg bg-light">
@@ -34,24 +33,26 @@
     </div>
 </nav>
 <div class="container">
-    <form:form method="post" action="cadastrar" modelAttribute="func">
-        <form:label path="nomfun">Nome: </form:label>
-        <form:input path="nomfun" type="text" />
-
-        <form:label path="cpffun">CPF: </form:label>
-        <form:input path="cpffun" type="text" />
-
-        <form:label path="senha">Senha: </form:label>
-        <form:input path="senha" type="password" />
-
-        <form:label path="permissao.id">Permissão: </form:label>
-        <form:select path="permissao.id">
-            <c:forEach var="p" items="${perms}">
-                <form:option value="${p.id}">${p.nome}</form:option>
-            </c:forEach>
-        </form:select>
-        <input type="submit" value="Cadastrar">
-    </form:form>
+    <h1>Vendas</h1>
+    <h3><a href="/Farmacia/vend/cadastrar">Cadastrar novas</a></h3>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Cliente: </th>
+            <th>Produto: </th>
+            <th>Qtd: </th>
+        </tr>
+        </thead>
+        <tbody>
+        <c:forEach var="v" items="${vendas}">
+            <tr>
+                <th>${v.codcliven}</th>
+                <th>${v.codproven}</th>
+                <th>${v.qtdven}</th>
+            </tr>
+        </c:forEach>
+        </tbody>
+    </table>
 </div>
 </body>
 </html>

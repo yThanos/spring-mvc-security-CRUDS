@@ -1,24 +1,24 @@
 package br.csi.farmaspring.model;
 
 public class Venda {
-    private int codproven;
-    private int codcliven;
-    private int qtdven;
+   private Cliente cliven;
+   private Produto proven;
+   private int qtdven;
 
-    public int getCodproven() {
-        return codproven;
+    public Cliente getCliven() {
+        return cliven;
     }
 
-    public void setCodproven(int codproven) {
-        this.codproven = codproven;
+    public void setCliven(Cliente cliven) {
+        this.cliven = cliven;
     }
 
-    public int getCodcliven() {
-        return codcliven;
+    public Produto getProven() {
+        return proven;
     }
 
-    public void setCodcliven(int codcliven) {
-        this.codcliven = codcliven;
+    public void setProven(Produto proven) {
+        this.proven = proven;
     }
 
     public int getQtdven() {

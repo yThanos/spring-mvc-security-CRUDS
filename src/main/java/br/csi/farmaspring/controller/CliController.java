@@ -38,9 +38,9 @@ public class CliController {
     }
 
     @GetMapping("/editar")
-    public String editar(@RequestParam String cpfcli, Model model){
+    public String editar(@RequestParam int codcli, Model model){
 
-        Cliente cli = new CliDao().getCli(cpfcli);
+        Cliente cli = new CliDao().getCli(codcli);
 
         model.addAttribute("cliente", cli);
 
