@@ -7,6 +7,9 @@
     <list default="true" id="eba0fbd7-7c10-4aaf-be6c-3f9d40476117" name="Changes" comment="3 cruds yeah">
       <change afterPath="$PROJECT_DIR$/../Cafeteria" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../farmacia" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/dao/ConectaDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/dao/ConectaDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/dao/ConectaDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/dao/ConectaDB.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../app_bic/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../app_bic/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../app_bic/.idea/dataSources.xml" beforeDir="false" />
@@ -75,22 +78,6 @@
       <change beforePath="$PROJECT_DIR$/../app_bic/target/classes/br/csi/model/Permissao.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../app_bic/target/classes/br/csi/model/Usuario.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../app_bic/target/classes/br/csi/service/UsuarioService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/controller/CliController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/controller/CliController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/dao/CliDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/dao/CliDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/dao/VenDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/dao/VenDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/model/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/model/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/model/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/model/Permissao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/model/Permissao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/model/Venda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/model/Venda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/cadFun.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/cadFun.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/cliInicio.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/cliInicio.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/dao/CliDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/dao/CliDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/dao/ConectaDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/dao/ConectaDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/dao/VenDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/dao/VenDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/model/Venda.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/model/Venda.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,13 +88,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -120,23 +108,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/vfr20/Cafeteria",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "spring.configuration.checksum": "f35a3f1621605969be0b47b3f021e439"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+  </component>
   <component name="RunManager">
     <configuration name="FarmaSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="FarmaSpring" />

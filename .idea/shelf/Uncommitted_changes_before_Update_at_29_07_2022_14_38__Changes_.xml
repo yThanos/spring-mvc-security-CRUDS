@@ -1,0 +1,24 @@
+<changelist name="Uncommitted_changes_before_Update_at_29_07_2022_14_38_[Changes]" date="1659116324135" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_07_2022_14_38_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 29/07/2022 14:38 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/br/csi/farmaspring/model/Cliente.class" />
+    <option name="AFTER_PATH" value="target/classes/br/csi/farmaspring/model/Cliente.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_07_2022_14_38_[Changes]/Cliente.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/br/csi/farmaspring/controller/FunController.class" />
+    <option name="AFTER_PATH" value="target/classes/br/csi/farmaspring/controller/FunController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_07_2022_14_38_[Changes]/FunController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/br/csi/farmaspring/dao/CliDao.class" />
+    <option name="AFTER_PATH" value="target/classes/br/csi/farmaspring/dao/CliDao.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_07_2022_14_38_[Changes]/CliDao.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/br/csi/farmaspring/model/Permissao.class" />
+    <option name="AFTER_PATH" value="target/classes/br/csi/farmaspring/model/Permissao.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_07_2022_14_38_[Changes]/Permissao.class" />
+  </binary>
+</changelist>
