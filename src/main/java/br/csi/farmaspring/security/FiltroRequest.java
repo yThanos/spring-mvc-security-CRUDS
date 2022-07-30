@@ -29,7 +29,6 @@ public class FiltroRequest implements Filter {
             if(session.getAttribute("usuario_logado") != null){
                 filterChain.doFilter(servletRequest, servletResponse);
             }else {
-
             }
         }
     }
