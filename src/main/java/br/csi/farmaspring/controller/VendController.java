@@ -7,6 +7,7 @@ import br.csi.farmaspring.model.Venda;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.view.RedirectView;
@@ -36,8 +37,10 @@ public class VendController {
     }
 
     @PostMapping("/cadastrar")
-    public RedirectView cadVen(){
+    public RedirectView cadVen(@ModelAttribute Venda vend){
         RedirectView redirect = new RedirectView("/Farmacia/vend/inicio");
+
+        new VenDao().setVen(vend);
 
 
         return redirect;

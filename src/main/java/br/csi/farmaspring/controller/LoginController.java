@@ -36,8 +36,10 @@ public class LoginController {
                 redirect = new RedirectView("/Farmacia/admin/inicio");
 
             } else if (func.getPermissao().getId() == 2) {
-                redirect = new RedirectView("/Farmacia/funcionario/inicio");
+                redirect = new RedirectView("/Farmacia/vendas/inicio");
 
+            } else if (func.getPermissao().getId() == 3) {
+                redirect = new RedirectView("/Farmacia/estoque/inicio");
             }
         }
         return redirect;

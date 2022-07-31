@@ -46,8 +46,8 @@
         <tbody>
         <c:forEach var="v" items="${vendas}">
             <tr>
-                <th>${v.codcliven}</th>
-                <th>${v.codproven}</th>
+                <th>${v.cliven.nomcli}</th>
+                <th>${v.proven.nompro}</th>
                 <th>${v.qtdven}</th>
             </tr>
         </c:forEach>
