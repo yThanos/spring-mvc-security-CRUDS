@@ -1,0 +1,42 @@
+create table permissao(id_permissao int not null,
+nome_permissao varchar(10),
+primary Key(id_permissao));
+
+create table funcionario(codfun serial,
+nomfun varchar(100) not null,
+cpffun varchar(14) not null unique,
+senha varchar(25) not null,
+id_permissao int not null,
+primary key(codfun));
+
+create table cliente (codcli serial,
+nomcli varchar(100) not null,
+cpfcli varchar(14) unique not null,
+primary key(codcli));
+
+create table produto (codpro serial not null,
+nompro varchar(100) unique not null,
+valor varchar(10) not null,
+primary key(codpro));
+
+create table venda (codven serial not null,
+codproven int not null,
+codcliven int not null,
+qntven int not null,
+foreign key(codproven) references produto(codpro),
+foreign key(codcliven) references cliente(codcli));
+
+create table carinho (codcar serial not null,
+codprocar int not null,
+codclicar int not null,
+qntcar int not null,
+foreign key(codprocar) references produto(codpro),
+foreign key(codclicar) references cliente(codcli));
+
+insert into permissao (id_permissao, nome_permissao) values (1, 'Admin');
+insert into permissao (id_permissao, nome_permissao) values (2, 'Estoque');
+insert into permissao (id_permissao, nome_permissao) values (3, 'Venda');
+
+insert into funcionario (nomfun, cpffun, senha, id_permissao) values ('Vitor', '123', '123', 1);
+insert into funcionario(nomfun, cpffun, senha, id_permissao) values ('Bianca', '234', '123', 2);
+insert into funcionario (nomfun, cpffun, senha, id_permissao) values ('Jose', '345', '123', 3);
