@@ -35,6 +35,27 @@ public class CliDao {
         return cli;
     }
 
+    public Cliente getCli2(String cpf) {
+        Cliente cli = new Cliente();
+        try (Connection connection = new ConectaDB().getConexao()) {
+            this.sql = " SELECT * FROM cliente where cpfcli = ?";
+            this.preparedStatement = connection.prepareStatement(this.sql);
+            this.preparedStatement.setString(1, cpf);
+            this.resultSet = this.preparedStatement.executeQuery();
+            while (resultSet.next()){
+                cli.setCodcli(resultSet.getInt("codcli"));
+                cli.setNomcli(resultSet.getString("nomcli"));
+                cli.setCpfcli(resultSet.getString("cpfcli"));
+            }
+
+        } catch (PSQLException e){
+            e.printStackTrace();
+        } catch (SQLException e){
+            e.printStackTrace();
+        }
+        return cli;
+    }
+
     public ArrayList<Cliente> listCli(){
         ArrayList<Cliente> clientes = new ArrayList<Cliente>();
 

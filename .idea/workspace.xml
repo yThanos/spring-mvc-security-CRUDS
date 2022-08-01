@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eba0fbd7-7c10-4aaf-be6c-3f9d40476117" name="Changes" comment="working well">
+    <list default="true" id="eba0fbd7-7c10-4aaf-be6c-3f9d40476117" name="Changes" comment="working fine">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/controller/VendController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/controller/VendController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/dao/ConectaDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/dao/ConectaDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/controller/VendasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/controller/VendasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/dao/CliDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/dao/CliDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/dao/VenDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/dao/VenDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/security/FiltroRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/security/FiltroRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/vendInicio.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/vendInicio.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/controller/VendController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/controller/VendController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/model/Venda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/model/Venda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/dao/CliDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/dao/CliDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/dao/ConectaDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/dao/ConectaDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/dao/VenDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/dao/VenDao.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,25 +45,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "spring.configuration.checksum": "f35a3f1621605969be0b47b3f021e439"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f35a3f1621605969be0b47b3f021e439&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="FarmaSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="FarmaSpring" />
@@ -91,7 +93,8 @@
       <workItem from="1659009403312" duration="3938000" />
       <workItem from="1659040087661" duration="14550000" />
       <workItem from="1659149712851" duration="938000" />
-      <workItem from="1659274512373" duration="4000000" />
+      <workItem from="1659274512373" duration="4035000" />
+      <workItem from="1659314831490" duration="10576000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1658884645435</created>
@@ -114,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659150048793</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="working fine">
+      <created>1659287782206</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659287782206</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +145,7 @@
     <MESSAGE value="Commit" />
     <MESSAGE value="3 cruds yeah" />
     <MESSAGE value="working well" />
-    <option name="LAST_COMMIT_MESSAGE" value="working well" />
+    <MESSAGE value="working fine" />
+    <option name="LAST_COMMIT_MESSAGE" value="working fine" />
   </component>
 </project>

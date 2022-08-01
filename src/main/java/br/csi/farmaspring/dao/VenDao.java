@@ -1,5 +1,6 @@
 package br.csi.farmaspring.dao;
 
+import br.csi.farmaspring.model.Carinho;
 import br.csi.farmaspring.model.Cliente;
 import br.csi.farmaspring.model.Venda;
 import org.postgresql.util.PSQLException;
@@ -24,6 +25,7 @@ public class VenDao {
             this.resultSet = this.preparedStatement.executeQuery();
             while (resultSet.next()){
                 Venda vend = new Venda();
+                vend.setCodven(resultSet.getInt("codven"));
                 int codcli = (resultSet.getInt("codcliven"));
                 int codpro = (resultSet.getInt("codproven"));
                 vend.setCliven(new CliDao().getCli(codcli));
@@ -60,5 +62,17 @@ public class VenDao {
 
 
         return "certo";
+    }
+
+    public void delven(int codven){
+        try (Connection connection = new ConectaDB().getConexao()) {
+            this.sql = " DELETE FROM venda where codven = ?";
+            this.preparedStatement = connection.prepareStatement(this.sql);
+            this.preparedStatement.setInt(1, codven);
+            this.preparedStatement.executeQuery();
+
+        } catch (SQLException e){
+            e.printStackTrace();
+        }
     }
 }

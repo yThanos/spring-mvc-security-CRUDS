@@ -1,7 +1,8 @@
 package br.csi.farmaspring.model;
 
 public class Venda {
-   private Cliente cliven;
+    private int codven;
+    private Cliente cliven;
    private Produto proven;
    private int qtdven;
 
@@ -28,4 +29,13 @@ public class Venda {
     public void setQtdven(int qtdven) {
         this.qtdven = qtdven;
     }
+
+    public int getCodven() {
+        return codven;
+    }
+
+    public void setCodven(int codven) {
+        this.codven = codven;
+    }
+
 }
