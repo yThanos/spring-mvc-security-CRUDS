@@ -91,11 +91,20 @@ public class VendasController {
         return redirect;
     }
 
-    @GetMapping("fim")
+    @GetMapping("/fim")
     public RedirectView fim(){
         RedirectView redirect = new RedirectView("/Farmacia/vendas/inicio");
 
         new CarDao().fim();
+
+        new CarDao().limpa();
+
+        return redirect;
+    }
+
+    @GetMapping("/cancelar")
+    public RedirectView cancelar(){
+        RedirectView redirect = new RedirectView("/Farmacia/vendas/inicio");
 
         new CarDao().limpa();
 

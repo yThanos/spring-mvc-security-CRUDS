@@ -45,7 +45,7 @@
     </tbody>
 </table>
 <a href="/Farmacia/vendas/fim">Comfirmar compra!</a>
-<a href="/Farmacia/vendas/fim">Cancelar!</a>
+<a href="/Farmacia/vendas/cancelar">Cancelar!</a>
 </div>
 </body>
 </html>
