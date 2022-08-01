@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eba0fbd7-7c10-4aaf-be6c-3f9d40476117" name="Changes" comment="CARALHO QUE ALEGRIA" />
+    <list default="true" id="eba0fbd7-7c10-4aaf-be6c-3f9d40476117" name="Changes" comment="CARALHO QUE ALEGRIA">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/controller/EstoqueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/controller/EstoqueController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/security/FiltroRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/csi/farmaspring/security/FiltroRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/controller/EstoqueController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/csi/farmaspring/controller/EstoqueController.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -84,6 +89,8 @@
       <workItem from="1659149712851" duration="938000" />
       <workItem from="1659274512373" duration="4035000" />
       <workItem from="1659314831490" duration="10703000" />
+      <workItem from="1659327301859" duration="176000" />
+      <workItem from="1659360047460" duration="1163000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1658884645435</created>
@@ -127,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659327061520</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="CARALHO QUE ALEGRIA">
+      <created>1659327398493</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659327398493</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
